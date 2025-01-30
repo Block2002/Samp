@@ -22,7 +22,8 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60000))
 ADS_MODE = getenv("ADS_MODE", None)
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = "-1002445002370"
+# Chat id of a group for logging bot's activities
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002324478802"))
 
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = 7823100937
